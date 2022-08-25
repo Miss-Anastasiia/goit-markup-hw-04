@@ -42,10 +42,7 @@ ul {
 .accent {
 	color: var(--primary-blue-color);
 }
-.list {
-	list-style: none;
-	color: inherit;
-}
+
 
 /* Header */
 .logo-header {
@@ -271,10 +268,9 @@ ul {
     justify-content: center;
     align-items: center;
 	padding-bottom: 30px;
+	gap: 10px;
 }
-.network-item:not(:first-child) {
-	margin-left: 10px;;
-}
+
 .network-link {
 	display: flex;
 	justify-content: center;
@@ -296,10 +292,7 @@ ul {
 /*Clients*/
 .clients-list {
 	display: flex;
-	
-}
-.client-item:not(:first-child) {
-	margin-left: 30px;
+	gap: 30px;
 }
 .client-link {
 	display: flex;
