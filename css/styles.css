@@ -233,6 +233,22 @@ ul {
 }
 .work-photo {
 	flex-basis: calc((100% - 60px) / 3);
+	position: relative;
+}
+.work-descr {
+	width: 370px;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--primary-white-color);
+	background-color: rgba(47, 48, 58, 0.8);
 }
 
 /*Team*/
